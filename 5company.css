@@ -1,0 +1,127 @@
+footer{
+    background-color: rgb(23, 23, 23);
+    }
+    .bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/contactbg.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    
+    /*NavBar CSS*/
+    #menubar{
+    width:100%;
+    margin-left:auto;
+    text-align:center;
+    margin-right:auto;
+    margin-top: auto;
+    height:auto;
+    /**/
+    background-color: rgb(26, 26, 26);
+    }
+    ul {
+    text-align: left;
+    display: inline;
+    margin: 0;
+    /*padding: 15px 4px 17px 0;*/
+    list-style: none;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+    ul li {
+    font: bold 20px/18px sans-serif;
+    display: inline-block; /*NavBar Display*/
+    margin-right: -5px;
+    position: relative;
+    padding: 15px 20px; /*NavBar*/
+    /*background: white;*/
+    color:#ae846a; /*NavBar Text Color*/
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    }
+    ul li:hover { /*HoverBGcolors*/
+    background: rgb(39, 39, 39);
+    color: #f7f7f7;
+    }
+    li ul{
+    display: none;
+    background-color: rgb(26, 26, 26); /*SubBarColor*/
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -20px;
+    padding:0px 0px 0px 0px;
+    }
+    li ul a li{
+    width:6.5em;
+    border-bottom: 1px solid #00000000;
+    }
+    li:hover ul{
+    display: block;
+    }
+    li ul a li:hover{
+    width:6.5em;
+    }
+    li ul li ul li {
+    display:none;
+    margin-left: 0px;
+    position:relative;
+    }
+    li ul li:hover ul li{
+    display:block;			
+    }
+    ul ul ul {
+    left: 100%;
+    top: 0;
+    margin-left: 0px;
+    }
+    /*NavBar CSS End*/
+    
+    /*Body*/
+    h1{
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    }
+    h3{
+    text-align: center;
+    }
+    /*BodyEnd*/
+    
+    /*Social CSS*/
+    .share{
+    position: absolute;
+    top: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 99%;
+    margin-left:auto;
+    margin: right auto;
+    height:auto;
+    background-color: rgb(26, 26, 26);
+    }
+    .share p{
+    font-size: 17px;
+    color: #ae846a;
+    margin-right: 40px;
+    margin-left: 80px;
+    font: 700 normal 1.0em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    }
+    .share .social a{
+    display: inline-block;
+    color: #ae846a;
+    margin-right: 15px;
+    transition: transform .3s;
+    }
+    .share .social a:hover{
+    transform: scale(1.6);
+    }
+    /*Social CSS End*/
