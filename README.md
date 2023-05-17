@@ -1,1 +1,0 @@
-# lgloria.github.io
